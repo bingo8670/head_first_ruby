@@ -1,11 +1,13 @@
 # Head First Ruby 学习笔记
 ruby 术语：
-- 超类：superclass;
-- 子类：subclass;
--
+- Fixnum :整数;
+- Float :浮点数，即带小数点带小数；只要任意一个操作数是Float，Ruby就会提供一个Float；
+- subclass :子类;
+- superclass :超类;
 
 ruby 技巧：
 - class 方法会告诉你一个对象是哪个类的实例；
+- format 方法用于格式序列及其宽度，%s = 字符串，%i = 向下整数，%f = 浮点数
 - inspect 方法将一个对象转化为一个调试字符串；
 - instance_variables 方法可查看某对象定义了哪些实例变量;
 - methods 方法会告诉你一个对象有哪些实例方法；
